@@ -27,6 +27,26 @@
     add the graph to be accessed by langsmith in graph_builder.py
     create langgraph.json and provide path for graph_builder file with graph
     run langchain dev in another terminal with fast api server running in one terminal
-    
+
 
     ![alt text](image-1.png)
+
+
+### Integrating Laguage option (Hindi/French) for Blog creation
+    create build_language_graph
+    create translation, route and route_decision methods in blog_node
+    make changes to graph_builder to show the graph in langsmith
+    Here in this graph the current_language is passed using lambda function
+    make changes also to get the title conversion too
+
+    langgraph dev gives below image:
+    ![alt text](image-2.png)
+
+    Below is the postman api test for results:
+    hindi:
+
+    ![alt text](image-3.png)
+
+    french:
+
+    ![alt text](image-4.png)
