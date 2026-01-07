@@ -16,3 +16,17 @@
     Then create a graph builder to create entire graph
     Define the states in state.py for information transfer
     Next we define nodes where the actual data generation takes place
+    Basically in node we generate the content and pass it as blog to Blog State
+
+
+### Use Postman to check the end point for Blog creation
+![alt text](image.png)
+
+
+### Integrating Langsmith feature
+    add the graph to be accessed by langsmith in graph_builder.py
+    create langgraph.json and provide path for graph_builder file with graph
+    run langchain dev in another terminal with fast api server running in one terminal
+    
+
+    ![alt text](image-1.png)
